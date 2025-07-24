@@ -1,0 +1,28 @@
+# Terraform-specific
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive data
+*.pem
+*.key
+*.env
+*.secret
+
+# Local IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
